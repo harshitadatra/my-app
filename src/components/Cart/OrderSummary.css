@@ -1,0 +1,20 @@
+.price-details-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 6rem;
+    margin-bottom: 1.2rem;
+}
+.place-order-button {
+    background-color: #4F7942;
+    color: white;
+    border: none;
+    border-radius: 0.2rem;
+    padding: 0.5rem;
+    width: 100%;
+
+}
+.order-main-container
+{
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&family=Poppins:wght@200;300;500;600&display=swap');
+ @import url('../ProductListing/ProductListingPage.css'); */
+
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+
+.website-brand {
+    font-weight: bold;
+    margin-left: 3rem;
+}
+.main-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    color: black;
+    box-shadow: 15px;
+}
+
+.category-name {
+    margin-right: 1.5rem;
+    text-decoration: none;
+    color: black;
+}
+
+
+.nav-categories {
+    margin-left: auto;
+
+}
+
+.nav-icons {
+    display: flex;
+    gap: 1rem;
+    text-align: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 3rem;
+}
+
+
+
+.nav-categories :hover {
+    border-bottom: 3px solid #4F7942;
+
+}
+
+
+.nav-icons>* {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.home-product-container {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+        display: flex;
+        justify-content: space-around;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 2rem;
+}
+
+.product-card {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin: 0.9rem;
+
+}
+
+.product-image {
+    height: 11rem;
+    width: 18rem;
+    border-radius: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.product-details {
+    display: flex;
+    gap: 1rem;
+    margin-top: 0.6rem;
+
+}
+
+.product-price {
+    margin-left: auto;
+    color: #3b5b32;
+}
+
+
+
+
+
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.brand-name {
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+
+
+.nav-icons {
+    display: flex;
+    gap: 1rem;
+    text-align: center;
+    align-items: center;
+    margin-left: auto;
+}
+
+
+
+
+
+.nav-icons>* {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.footwear-container {
+
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin: 1rem;
+    gap: 1rem;
+    cursor: pointer;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding-top: 3rem;
+}
+
+.main-image {
+    width: 100%;
+    height: auto;
+
+
+}
+
+.heading1 {
+
+    text-transform: capitalize;
+    line-height: 1.25;
+    margin-bottom: 0.75rem;
+}
+
+
+
+.shop-button {
+    border: none;
+    padding: 0.8rem;
+    background-color: #4F7942;
+    color: white;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+
+}
+
+
+
+.details-container {
+    margin-left: 1rem;
+
+    width: 40%;
+
+    padding: 1rem;
+    margin-top: 6rem;
+}
+
+.main-image {
+    width: 22rem;
+    margin-top: 3rem;
+    margin-left: 15rem;
+    margin-right: 2rem;
+    border-radius: 1rem;
+}
+
+.feature-heading {
+    text-align: center;
+}
+
+/* .product-container {
+    display: flex;
+    justify-content: space-around;
+} */
+
+.all-products-button {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    color:white
+}
+.nav-icons a{
+    text-decoration: none;
+    color: black;
+}

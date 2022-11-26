@@ -1,0 +1,175 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&family=Poppins:wght@200;300;500;600&display=swap');
+
+
+
+
+
+.product-container
+{
+    display: grid;
+    grid-template-columns: 200px 1fr;
+}
+
+.main-container
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left:2rem;
+}
+
+.product-card
+{
+    display:flex ;
+    flex-direction: column;
+    width: fit-content;
+    margin:0.9rem;
+
+    
+}
+.product-image
+{
+    height: 11rem;
+    width: 18rem;
+    border-radius: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.product-details
+{
+   display: flex;
+   gap: 1rem;
+   margin-top:0.6rem;
+    
+   
+}
+.product-price
+{
+    margin-left: auto;
+    color:#3b5b32;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&family=Poppins:wght@200;300;500;600&display=swap');
+
+body {
+    margin: 0;
+    font-family: "Roboto",sans-serif;
+   
+}
+
+.website-brand
+{
+font-weight: bold;
+margin-left:3rem;
+}
+
+
+
+.main-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    color: black;
+    box-shadow:15px;
+}
+.category-name {
+    margin-right: 1.5rem;
+    text-decoration: none;
+    color: black;
+ }
+
+
+.nav-categories {
+    margin-left: auto;
+   
+}
+
+.nav-icons {
+    display: flex;
+    gap: 1rem;
+    text-align: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 3rem;
+}
+.nav-categories
+{
+ 
+  margin-left: auto;
+  
+}
+.nav-categories :hover
+{
+    border-bottom: 3px solid #4F7942;
+    
+}
+
+
+.nav-icons>* {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.product-container
+{
+    display: grid;
+    grid-template-columns: 200px 1fr;
+}
+/* 
+.main-container
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left:2rem;
+} */
+
+/* .product-card
+{
+    display:flex ;
+    flex-direction: column;
+    width: fit-content;
+    margin:0.9rem;
+    
+} */
+/* .product-image
+{
+    height: 11rem;
+    width: 18rem;
+    border-radius: 0.5rem;
+    margin-bottom: 0.5rem;
+} */
+.product-details
+{
+   display: flex;
+   gap: 1rem;
+}
+
+.side-container
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.2rem;
+    margin-top: 0.9rem;
+}
+.price-filter 
+{
+    
+    line-height: 2rem;
+    margin-bottom: 1rem;
+}
+.brand-filter
+{
+    line-height: 2rem;
+    margin-bottom: 1rem;
+}
+.availability-filter
+{
+    line-height: 2rem;
+    margin-bottom: 1rem;
+}
+.filter-container
+{
+    display: flex;
+    justify-content: flex-end;
+}
+a{
+    text-decoration: none;
+    color: black;
+}

@@ -1,0 +1,22 @@
+.empty-cart {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10rem;
+    align-items: center;
+    height: 100%;
+}
+
+.empty-cart-button {
+    padding: 1rem 1.2rem;
+    background-color: #4f7942;
+    color: white;
+    border-radius: 1rem;
+
+
+}
+
+.empty-cart-heading {
+    font-size: 1.5rem;
+    margin-bottom: 0.8rem;
+    font-weight: 500;
+}
