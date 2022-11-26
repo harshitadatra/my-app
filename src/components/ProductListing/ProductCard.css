@@ -1,35 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&family=Poppins:wght@200;300;500;600&display=swap');
 
-body {
-    margin: 0;
-    font-family: "Roboto",sans-serif;
-   
-}
-
-
-.product-container
-{
-    display: grid;
-    grid-template-columns: 200px 1fr;
-}
-
-.main-container
-{
-    display: flex;
-    flex-wrap: wrap;
-    margin-left:2rem;
-}
-
-
-
-.product-details
-{
-   display: flex;
-   gap: 1rem;
-   margin-top:0.6rem;
-    
-   
-}*/
 .product-card {
     display: flex;
     flex-direction: column;
@@ -61,11 +30,7 @@ color: black;
 
 
 }
-/* .product-details {
-    display: flex;
-    
-   
-} */
+
 .product-image-container
 {
    position: relative;
