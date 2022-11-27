@@ -47,8 +47,8 @@ export const ProductList = () =>
   const priceRangeList = priceRangeFilter(prod.products,state.range);
   
   const stockFilterList= stockFilter(priceRangeList,state.onlyInStock);
-  //  const fastDeliveryList = fastDelivery(stockFilterList,state.fastDelivery)
-   const sortFinalList = sortData(stockFilterList,state.sortBy);
+   const fastDeliveryList = fastDelivery(stockFilterList,state.fastDelivery)
+   const sortFinalList = sortData(fastDeliveryList,state.sortBy);
     const sortByCategoryFinalList = sortByCategory(sortFinalList,office,livingroom,kitchen,bedroom,dining,kids);
     console.log(sortByCategoryFinalList);
   return (

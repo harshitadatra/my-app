@@ -11,9 +11,9 @@ const stockFilter = (stockList,filterStockList) =>
 }
 /* fast delivery filter */
 
-const fastDelivery = (fastDeliveryList)=>
+const fastDelivery = (fastDeliveryList,filterFastDeliveryList)=>
 {
-    
+    return fastDeliveryList.filter((item) => filterFastDeliveryList ? item.fastDelivery === true :item)
   
 }
 //sort data
