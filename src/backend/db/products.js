@@ -166,7 +166,7 @@ export const products = [
       "https://881275.smushcdn.com/1991859/wp-content/uploads/2019/09/Global-Construction-office-lighting-1200x480.jpg?lossy=1&strip=1&webp=1",
     inStock: true,
     ratings: 3,
-    fastDelivery: false,
+    fastDelivery: true,
   },
   {
     _id: uuid(),
@@ -208,7 +208,7 @@ export const products = [
       "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/71DWianlXjL._SX679_.jpg",
     inStock: true,
     ratings: 2,
-    fastDelivery: false,
+    fastDelivery: true,
   },
   {
     _id: uuid(),
@@ -250,7 +250,7 @@ export const products = [
       "https://assets-global.website-files.com/61fca82f539c6b26ed9af94e/622839e68a16082dba83c92e_empty-chair-banner.png",
     inStock: true,
     ratings: 1,
-    fastDelivery: false,
+    fastDelivery: true,
   },
   {
     _id: uuid(),
@@ -264,7 +264,7 @@ export const products = [
       "https://www.supermiro.com/img/inspis/thumbs/sq_ins_1659_1625641397@2x.jpg",
     inStock: true,
     ratings: 4.5,
-    fastDelivery: false,
+    fastDelivery: true,
   },
   {
     _id: uuid(),
@@ -334,6 +334,6 @@ export const products = [
       "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/91mSUxsPTlL._SY879_.jpg",
     inStock: true,
     ratings: 3.5,
-    fastDelivery: false,
+    fastDelivery: true,
   },
 ];
