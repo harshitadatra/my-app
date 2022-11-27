@@ -80,8 +80,8 @@ export const LoginPage = () => {
             {/* </Link> */}
           </button>
           <Link to="/signup">
-            <div>
-              Don't have an account? <span class="sign-up-link">Sign up!</span>
+            <div class="sign-up-text">
+               Don't have an account? <span class="sign-up-link">Sign up!</span>
             </div>
           </Link>
           <div class="guest-credentials-link"> Use Guest Credentials</div>
