@@ -1,7 +1,4 @@
-// import asset1 from "https://images.unsplash.com/photo-1660723703099-d7fff4aca3bf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=60";
-// import asset2 from "https://images.unsplash.com/photo-1660723703099-d7fff4aca3bf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=60";
-// import asset3 from "https://images.unsplash.com/photo-1660723703099-d7fff4aca3bf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=60";
-// import mainImage from "https://images.unsplash.com/photo-1660723703099-d7fff4aca3bf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=60"
+
 import { Navbar } from "../Navbar/Navbar";
 import { Link } from "react-router-dom";
 

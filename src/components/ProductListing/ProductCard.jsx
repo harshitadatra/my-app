@@ -13,11 +13,7 @@ import "./ProductCard.css"
     const {setCart} = useCart();
     const {user} = useAuth();
 
-    //  console.log(user);
-//  console.log(inCart);
-//  console.log(item)
 
-    //  console.log(item);
   const addToWishlistHandler = async () => 
   {
     if(user.token === null)
@@ -55,12 +51,8 @@ import "./ProductCard.css"
         headers:{authorization: user.token},
         data:{product:item}
       })
-
-    // console.log(cartResponse.data.cart);
-    
     setCart({cart:cartResponse.data.cart});
-    // setInCart(true);
-
+  
      }
      catch(error)
      {
@@ -78,8 +70,7 @@ import "./ProductCard.css"
       });
        
       setWishlist({ wishList: deleteResponse.data.wishlist });
-      // setInWishlist(false);
-
+  
     } catch (error) {
       console.log(error);
     }

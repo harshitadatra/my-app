@@ -4,7 +4,7 @@ import { LoginPage } from "./components/Login/Login";
 import { ProductListingPage } from "./components/ProductListing/ProductListingPage";
 import { WishlistPage } from "./components/Wishlist/WishlistPage";
 import { CartListing } from "./components/Cart/CartListing";
-// import { MockAPI } from "./mockMan";
+
 import SignUp from "./components/Login/SignUp";
 
 export const RouterPath = () => {

@@ -45,7 +45,7 @@ export const LoginPage = () => {
         console.log(error)
      }
   };
-  // const navigate = useNavigate();
+  
 
   return (
     <>
@@ -75,9 +75,9 @@ export const LoginPage = () => {
           />
 
           <button className="login-button" onClick={() => logInUserHandler()}>
-            {/* <Link to="/" className="link-primary-solid"> */}
+           
             <h4>CONTINUE</h4>
-            {/* </Link> */}
+           
           </button>
           <Link to="/signup">
             <div class="sign-up-text">

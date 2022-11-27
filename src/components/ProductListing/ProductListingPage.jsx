@@ -1,6 +1,6 @@
 import { FilterSideBar } from "./FilterSideBar";
 import { Navbar } from "../Navbar/Navbar";
-// import { ProductCard } from "./ProductCard";
+
 import "./ProductListingPage.css";
 import { ProductList } from "./ProductList";
 export const ProductListingPage = () => 

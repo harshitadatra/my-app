@@ -3,21 +3,14 @@ import { useProduct } from "../../context/product-context";
 import "../Wishlist/Wishlist.css";
 import React from "react";
 import { useWishlist } from "../../context/wishlist-context";
-// import {useCart} from "../../context/cart-context";
 import { WishlistCard } from "../Wishlist/WishlistCard";
 import { Link } from "react-router-dom";
 
 export const WishlistPage = () => {
-  //  const { prod } = useProduct();
-  //   console.log(prod.products);
+  
   const { wishlist, setWishlist } = useWishlist();
   console.log(wishlist)
   console.log(wishlist.wishList);
-
-  // const {wishlist} = useWishlist();
-  // const {cart} = useCart();
-  // console.log(wishlist);
-  // console.log(cart);
 
   return (
     <div>

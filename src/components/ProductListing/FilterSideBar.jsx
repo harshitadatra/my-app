@@ -1,5 +1,5 @@
 import "../ProductListing/FilterSideBar.css"
-//import "./ProductListingPage.css";
+
 import { useFilter } from "../../context/filter-context";
 import { useProduct } from "../../context/product-context";
 export const FilterSideBar = () => 
@@ -83,10 +83,7 @@ export const FilterSideBar = () =>
 
           <div className="brand-filter">
             <div>Brand</div>
-            {/* <div>
-                    <input checked={} type="checkbox" className="brand-name" onChange={(e)=> dispatch({type:"ALL"})}/>
-                    <label htmlFor="brand-name">All</label>
-                </div> */}
+           
             <div>
               <input
                 checked={state.categories.office}
