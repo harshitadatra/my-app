@@ -24,16 +24,13 @@ export const ProductList = () =>
     const {cart} = useCart();
     const wishlistid = wishlist.wishList.map((item) => item._id);
     const cartid = cart.cart.map((item) => item._id);
-    console.log(prod.products)
     const {office,livingroom,kitchen,bedroom,dining,kids} = state.categories;
-    console.log(state.categories)
     const priceRangeList = priceRangeFilter(prod.products,state.range);
   
   const stockFilterList= stockFilter(priceRangeList,state.onlyInStock);
    const fastDeliveryList = fastDelivery(stockFilterList,state.fastDelivery)
    const sortFinalList = sortData(fastDeliveryList,state.sortBy);
     const sortByCategoryFinalList = sortByCategory(sortFinalList,office,livingroom,kitchen,bedroom,dining,kids);
-    console.log(sortByCategoryFinalList);
   return (
     <div className="main-container">
       {sortByCategoryFinalList.map((item) => (

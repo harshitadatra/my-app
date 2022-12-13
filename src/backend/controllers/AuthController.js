@@ -70,7 +70,7 @@ export const loginHandler = function (schema, request) {
       );
     }
     if (password === foundUser.password) {
-      console.log("2")
+      
       const encodedToken = sign(
         { _id: foundUser._id, email },
         process.env.REACT_APP_JWT_SECRET

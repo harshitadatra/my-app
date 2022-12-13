@@ -9,8 +9,8 @@ import axios from 'axios';
 export  const WishlistCard = ({item}) => {
    const { wishlist, setWishlist } = useWishlist();
     const { user } = useAuth();
-
-  const removeWishList = async () => {
+    
+    const removeWishList = async () => {
     try {
       const deleteResponse = await axios({
         method: "delete",
@@ -32,7 +32,7 @@ export  const WishlistCard = ({item}) => {
         <div className="product-card">
           <div className="image-container">
             <img src= {item.imgSource} className="product-image" />
-            <i onClick={removeWishList} className="fa-solid fa-xmark"></i>
+            <i onClick={removeWishList} className="fa fa-solid fa-xmark"></i>
           </div>
           <div className="brand-name">{item.brandName}</div>
           <div className="product-details">

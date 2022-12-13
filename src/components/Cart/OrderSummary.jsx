@@ -4,8 +4,6 @@ import { useCart } from '../../context/cart-context';
 
 export const OrderSummary = () => {
   const {cart} = useCart();
-  console.log(cart);
-  console.log(cart.cart);
 
 
   const subTotal = cart.cart.reduce((acc,curr)=>

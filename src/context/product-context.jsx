@@ -20,7 +20,6 @@ const ProductProvider = ({children})=> {
                         type:"INITIAL_PRODUCT",
                         payload: productResponse.data.products,
                     });
-                    //   console.log(productResponse.data.products);
             }
         })();
     

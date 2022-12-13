@@ -27,16 +27,13 @@ export const LoginPage = () => {
      try{
      
        const response = await axios.post("/api/auth/login",isTestUser ? { email: "abc@gmail.com", password: "abc123" } : userDetail);
-       console.log(response);
        setUser({
          users: response.data.foundUser,
         token: response.data.encodedToken,
       });
      
        navigate("/");
-       console.log(user)
       
-      console.log(response.data.foundUser);
      
      }
      

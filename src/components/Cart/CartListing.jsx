@@ -8,10 +8,9 @@ import { Link } from 'react-router-dom';
 
 export const CartListing = ({item}) => {
  const {cart,setCart} = useCart();
- console.log(cart);
+ 
  const cartid = cart.cart.map((item) => item._id);
-console.log(cartid)
-console.log(cart)
+
  
 
   return (

@@ -25,7 +25,7 @@ const sortData = (prodList,sortByList) =>
    }
    if(sortByList === "HIGH_TO_LOW")
    {
-//    console.log(prodList)
+ 
 
    return [...prodList].sort( (a,b) => b.price - a.price );
    }
@@ -61,7 +61,6 @@ const sortByCategory = (All,
         }
         if(kitchen ===true)
         {
-            console.log(kitchen)
             let newList =All.filter((item) => item.categoryName==="kitchen")
              newArray.push(...newList);
         }
@@ -83,7 +82,6 @@ const sortByCategory = (All,
              newArray.push(...newList);
           
         }
-        console.log(newArray)
         return newArray;
     }
     export{

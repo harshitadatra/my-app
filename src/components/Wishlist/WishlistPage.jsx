@@ -9,8 +9,6 @@ import { Link } from "react-router-dom";
 export const WishlistPage = () => {
   
   const { wishlist, setWishlist } = useWishlist();
-  console.log(wishlist)
-  console.log(wishlist.wishList);
 
   return (
     <div>

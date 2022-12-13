@@ -7,7 +7,7 @@ import "../Cart/CartCard.css"
  export const CartCard = ({item}) => {
     const { user } = useAuth();
     const { setCart } = useCart();
-    console.log(item)
+   
     const removeFromCartHandler = async () => {
       try {
         const cartDeleteResponse = await axios({

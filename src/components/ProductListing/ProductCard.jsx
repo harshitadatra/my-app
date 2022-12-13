@@ -12,7 +12,7 @@ import "./ProductCard.css"
     const {wishlist,setWishlist} = useWishlist();
     const {setCart} = useCart();
     const {user} = useAuth();
-
+    
 
   const addToWishlistHandler = async () => 
   {
@@ -28,9 +28,8 @@ import "./ProductCard.css"
         headers:{authorization:user.token},
         data: {product:item},
       });
-      console.log("wishlist response",response);
       setWishlist({wishList:response.data.wishlist});
-      setInWishlist(true);
+       setInWishlist(true);
     }
     catch(error)
     {
@@ -68,7 +67,7 @@ import "./ProductCard.css"
         headers: { authorization: user.token },
         data: { product: item },
       });
-       
+      
       setWishlist({ wishList: deleteResponse.data.wishlist });
   
     } catch (error) {
@@ -100,7 +99,7 @@ import "./ProductCard.css"
                 Add to cart
               </button>
             )}
-          </div>
+            </div>
 
           <div className="product-details">
             <div className="product-name">{item.productName}</div>
