@@ -21,11 +21,7 @@ export const OrderSummary = () => {
           <div> Price</div>
           <div>{subTotal}</div>
         </div>
-        <div class="price-details-container">
-          <div>discount</div>
-          <div> - Rs. 40</div>
-        </div>
-
+        
         <div class="price-details-container">
           <div> delivery</div>
           <div> FREE</div>
