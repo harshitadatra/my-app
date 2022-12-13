@@ -7,6 +7,7 @@ import "../Cart/CartCard.css"
  export const CartCard = ({item}) => {
     const { user } = useAuth();
     const { setCart } = useCart();
+    console.log(item)
     const removeFromCartHandler = async () => {
       try {
         const cartDeleteResponse = await axios({
@@ -40,6 +41,8 @@ import "../Cart/CartCard.css"
   
   const decrementHandler = async () => 
   {
+    if(item.qty>1)
+    {
     const reponseForDecrement = await axios({
       method:"post",
       url:`/api/user/cart/${item._id}`,
@@ -52,6 +55,7 @@ import "../Cart/CartCard.css"
       }
     })
     setCart({cart:reponseForDecrement.data.cart})
+  }
   }
  
   return (
@@ -72,7 +76,7 @@ import "../Cart/CartCard.css"
                 onClick={incrementHandler}
                 className="fa-solid fa-plus"
               ></button>
-              <div className="quantity">6</div>
+              <div className="quantity">{item.qty}</div>
               <button
                 onClick={decrementHandler}
                 className="fa-solid fa-minus"
