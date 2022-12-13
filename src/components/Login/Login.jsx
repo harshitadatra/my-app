@@ -22,11 +22,11 @@ export const LoginPage = () => {
       setUserDetail((prev) => ({ ...prev, [name]: value }));
     };
  
-  const logInUserHandler = async()=> {
+  const logInUserHandler = async(isTestUser)=> {
     
      try{
      
-       const response = await axios.post("/api/auth/login",userDetail);
+       const response = await axios.post("/api/auth/login",isTestUser ? { email: "abc@gmail.com", password: "abc123" } : userDetail);
        console.log(response);
        setUser({
          users: response.data.foundUser,
@@ -74,7 +74,7 @@ export const LoginPage = () => {
             autoComplete="on"
           />
 
-          <button className="login-button" onClick={() => logInUserHandler()}>
+          <button className="login-button" onClick={() => logInUserHandler(false)} >
            
             <h4>CONTINUE</h4>
            
@@ -84,7 +84,7 @@ export const LoginPage = () => {
                Don't have an account? <span class="sign-up-link">Sign up!</span>
             </div>
           </Link>
-          <div class="guest-credentials-link"> Use Guest Credentials</div>
+          <div onClick={() => logInUserHandler(true)} class="guest-credentials-link"> Use Guest Credentials</div>
         </div>
       </div>
     </>
