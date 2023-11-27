@@ -70,11 +70,7 @@ Start the server
     - Add product to Wishlist
     - Remove product from Wishlist
 
-## Upcoming Feature
 
-- Responsive website (E.T.A jan 2023)
-- Add to wishlist from cart (E.T.A Jan 2023)
-- payment integration (E.T.A Feb 2023)
   
 
 
