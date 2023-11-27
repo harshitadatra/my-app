@@ -5,7 +5,6 @@ import { v4 as uuid } from "uuid";
  * You can add products of your wish with different attributes
  * */
 
-
 /**
  * Product Database can be added here.
  * You can add products of your wish with different attributes
@@ -20,8 +19,7 @@ export const products = [
     price: "3999",
     categoryName: "livingroom",
     brand: "liddy",
-    imgSource:
-      "https://www.customframestore.com/blog/wp-content/uploads/2021/10/gallery-wall-white-bedroom.png",
+    imgSource: "https://www.course-api.com/images/store/product-12.jpeg",
     inStock: true,
     ratings: 2,
     fastDelivery: true,
@@ -62,8 +60,7 @@ export const products = [
     price: "7999.50",
     brand: "caressa",
     categoryName: "Footwear",
-    imgSource:
-      "https://www.noaandnani.co.uk/blog/wp-content/uploads/2020/06/photo-1520453714493-d85cdd7b033b-1080x743.jpeg",
+    imgSource: "https://www.course-api.com/images/store/product-16.jpeg",
     inStock: true,
     ratings: 3.5,
     fastDelivery: false,
@@ -162,8 +159,7 @@ export const products = [
     price: "20049",
     brand: "Ikea",
     categoryName: "office",
-    imgSource:
-      "https://881275.smushcdn.com/1991859/wp-content/uploads/2019/09/Global-Construction-office-lighting-1200x480.jpg?lossy=1&strip=1&webp=1",
+    imgSource: "https://www.course-api.com/images/store/product-21.jpeg",
     inStock: true,
     ratings: 3,
     fastDelivery: true,
@@ -190,8 +186,7 @@ export const products = [
     price: "29999",
     brand: "Caressa",
     categoryName: "livingroom",
-    imgSource:
-      "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/71+sISz6JiL._SX679_.jpg",
+    imgSource: "https://www.course-api.com/images/store/product-7.jpeg",
     inStock: true,
     ratings: 3.5,
     fastDelivery: false,
@@ -204,8 +199,7 @@ export const products = [
     price: "39999",
     brand: "Liddy",
     categoryName: "livingroom",
-    imgSource:
-      "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/71DWianlXjL._SX679_.jpg",
+    imgSource: "https://www.course-api.com/images/store/product-17.jpeg",
     inStock: true,
     ratings: 2,
     fastDelivery: true,
@@ -260,8 +254,7 @@ export const products = [
     price: "60499",
     brand: "Macros",
     categoryName: "office",
-    imgSource:
-      "https://www.supermiro.com/img/inspis/thumbs/sq_ins_1659_1625641397@2x.jpg",
+    imgSource: "https://www.course-api.com/images/store/product-18.jpeg",
     inStock: true,
     ratings: 4.5,
     fastDelivery: true,
@@ -274,8 +267,7 @@ export const products = [
     price: "64999",
     brand: "Macros",
     categoryName: "livingroom",
-    imgSource:
-      "https://www.performance-painting.com/hs-fs/hubfs/apartment-clean-condominium-279719%20(1).jpg?width=900&name=apartment-clean-condominium-279719%20(1).jpg",
+    imgSource: "https://www.course-api.com/images/store/product-15.jpeg",
     inStock: true,
     ratings: 4.5,
     fastDelivery: false,
@@ -288,8 +280,7 @@ export const products = [
     price: "3999",
     brand: "ikea",
     categoryName: "office",
-    imgSource:
-      "https://881275.smushcdn.com/1991859/wp-content/uploads/2019/09/Global-Construction-office-lighting-1200x480.jpg?lossy=1&strip=1&webp=1",
+    imgSource: "https://www.course-api.com/images/store/product-20.jpeg",
     inStock: true,
     ratings: 3,
     fastDelivery: false,
@@ -330,8 +321,7 @@ export const products = [
     price: "15499",
     brand: "Liddy",
     categoryName: "Footwear",
-    imgSource:
-      "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/91mSUxsPTlL._SY879_.jpg",
+    imgSource: "https://www.course-api.com/images/store/product-3.jpeg",
     inStock: true,
     ratings: 3.5,
     fastDelivery: true,
