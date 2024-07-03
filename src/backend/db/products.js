@@ -33,7 +33,7 @@ export const products = [
     categoryName: "dining",
     brand: "liddy",
     imgSource:
-      "https://thekitchenshowcase.com/wp-content/uploads/2020/08/pexels-pixabay-279648.jpg",
+      "https://ik.imagekit.io/1a4v4n07o/item-img2.jpg?updatedAt=1720009688706",
     inStock: true,
     ratings: 4,
     fastDelivery: false,
